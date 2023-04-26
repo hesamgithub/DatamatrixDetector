@@ -6,28 +6,26 @@ datamatrices.
 
 here is a brief description of what it does in plain english:
 
-It looks for squares (all datamatrices are square shaped)
-Cuts and warps them.
-Assumes all the squares are all datamatrices !
-Cuts them finely before reconstructing them.
-Based on the above mentioned presumption tries to reconstruct the squares as datamatrices.
-Once reconstructed, passes them to pylibdmtx decode method to see if it contains someting
+It looks for squares (all datamatrices are square shaped)</br>
+Cuts and warps them.</br>
+Assumes all the squares are all datamatrices !</br>
+Cuts them finely before reconstructing them.</br>
+Based on the above mentioned presumption tries to reconstruct the squares as datamatrices.</br>
+Once reconstructed, passes them to pylibdmtx decode method to see if it contains someting,</br>
+and that is pretty much it. </br></br>
 
-and that is pretty much it. 
-I have included the class that does the heavy lifting as mentioned above however, you might want to rewrite that based
-on your use case, camera API, etc. I had tested it using allied vision cameras and it worked pretty decently.
+I have included the class that does the heavy lifting (all that is mentioned above) however, you might want to rewrite that based
+on your use case, camera API, etc. I had tested it ulsing Allied Vision cameras and it worked pretty decently.
 
-my test settings were:
+My test settings were:</br>
+Allied vision stingray camera,</br>
+Infrared lighting,</br>
+A Core i5 Windows Machine,</br>
 
-allied vision stingray camera
-infrared lighting
-a core i5 windows machine
+My test results were:</br>
+About 20 frames (1,280 x 720 pixels) per sec using camera Async API</br>
 
-my test results were:
-
-about 20 frames (1,280 x 720 pixels) per sec using camera Async API!
-
-It was a learning project for me. I'm putting it out so maybe another learner would learn from it.
+It was a learning project for me. I'm putting it out there so maybe another learner would learn from it.</br>
 that's all folks!
 
 
